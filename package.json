@@ -1,8 +1,14 @@
 {
-  "name": "feiticos-culinarios",
-  "version": "1.0.0",
-  "main": "home.html",
-  "repository": "https://github.com/Navesz/feiticos-culinarios",
-  "author": "Navesz",
-  "license": "MIT"
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  }
 }
