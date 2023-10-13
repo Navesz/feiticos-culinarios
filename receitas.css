@@ -1,0 +1,25 @@
+body {
+  background-color: #353746;
+}
+
+.receitas {
+  display: flex;
+  flex-wrap: wrap; /* Para permitir que os itens se envolvam em várias linhas */
+  gap: 20px;
+  padding: 50px;
+  justify-content: center;
+}
+
+.card {
+  flex-basis: calc(
+    100% / 3 - 20px
+  ); /* Define a base para aproximadamente um terço da largura do container */
+  min-width: 18rem; /* Define a largura mínima do item */
+  box-sizing: border-box; /* Garante que padding e border sejam incluídos no tamanho total do item */
+}
+
+.card-img-top {
+  height: 200px; /* ou qualquer outra altura desejada */
+  object-fit: cover; /* Isso garante que a imagem cubra toda a área sem distorcer */
+  width: 100%; /* Garante que a imagem ocupe toda a largura do container */
+}

@@ -1,0 +1,53 @@
+/* Estilos para o sticky footer */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+/* Para o título */
+h1, h2, h3, h4, h5 {
+  font-family: Aref Ruqaa Ink, Nocifer, cursive;
+  font-weight: 1000;
+  color: white;
+}
+
+.card-title {
+  color: #191a20;
+}
+
+label {
+  color: white;
+}
+
+/* Para o texto */
+body, p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.image {
+  background-image: 
+  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+  url('fundo.png');
+  background-size: cover; /* Isso garante que a imagem cubra toda a área visível */
+  background-repeat: no-repeat; /* Isso garante que a imagem não se repita */
+  background-attachment: fixed; /* Isso faz com que a imagem fique fixa ao rolar a página */
+  color: white;
+}
+
+footer {
+  background-color: #191a20;"
+}
+
+header {
+  height: 60px; background-color: #191a20
+}
