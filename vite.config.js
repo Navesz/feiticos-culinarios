@@ -1,7 +1,7 @@
 export default {
   build: {
     rollupOptions: {
-      input: 'home.html'
+      input: '/home.html'
     }
   }
 }
